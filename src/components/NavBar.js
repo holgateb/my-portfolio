@@ -52,9 +52,6 @@ export const NavBar = () => {
                 <a href="https://www.linkedin.com/in/benholgate/"><img src={navIcon1} alt="" /></a>
                 <a href="https://github.com/holgateb"><img src={navIcon2} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
             </span>
           </Navbar.Collapse>
         </Container>
