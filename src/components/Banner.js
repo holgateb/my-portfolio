@@ -10,7 +10,7 @@ export const Banner = () => {
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ["Web Developer", "Web Designer", "Team Leader"];
+  const toRotate = [", Web Developer", ", Web Designer", ", Team Leader"];
   const period = 2000;
 
   useEffect(() => {
@@ -63,7 +63,7 @@ export const Banner = () => {
                   }
                 >
                   <h1>
-                    {`Hi! I'm Bennett`}{" "}
+                    {`Hi! I'm Bennett`}{""}
                     <span
                       className="txt-rotate"
                       dataPeriod="1000"
@@ -93,6 +93,9 @@ export const Banner = () => {
               )}
             </TrackVisibility>
           </Col>
+        </Row>
+        <Row>
+          <img src="../assets/img/icon2.png"></img>
         </Row>
       </Container>
     </section>
