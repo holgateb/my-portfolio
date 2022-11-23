@@ -114,6 +114,7 @@ span.navbar-text {
     align-items: center;
 }
 .social-icon {
+  padding: 15px; 
     display: inline-block;
     margin-left: 14px;
 }
